@@ -5,6 +5,8 @@ class Solution:
         :type target: int
         :rtype: List[int]
 
+        This approach takes o(n) time complexity with o(n) space complexity
+
         """
         my_dict = {}
         for i in range(0,len(nums)):
